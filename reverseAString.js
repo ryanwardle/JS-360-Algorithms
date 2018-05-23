@@ -9,5 +9,3 @@ function reverseAString(string){
    word = word.replace(/,/gi, '');
    return word;
 }
-
-reverseAString('codinggod');
