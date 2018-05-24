@@ -7,6 +7,3 @@ function repeatString (str, num) {
   }
   return repeatedString;
 }
-
-
-console.log(repeatString('Ryan', 4));

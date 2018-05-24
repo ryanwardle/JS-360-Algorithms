@@ -26,7 +26,7 @@ function checkPalindrome (string){
 //BETTER WAY*************
 
 function isPalindrome(str){
-  let word = str.toLowerCase().replace(/W_/g, '');;
+  let word = str.toLowerCase().replace(/W_/g, '');
   let reversedString = word.split('').reverse().join('');
 
   return word === reversedString;
